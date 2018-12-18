@@ -1,0 +1,17 @@
+[package]
+name = "glfw3"
+version = "0.1.0"
+license = "MIT"
+description = "glfw3"
+authors = ["Rui <2221870259@qq.com>"]
+homepage = "https://github.com/ocornut/glfw3"
+repository = "https://github.com/rust-cxx/glfw3-cxx.git"
+edition = "2018"
+build = "build.rs"
+
+[build-dependencies]
+cargo-cxx = "0.1"
+
+[lib]
+name = "glfw3"
+path = "lib.rs"
